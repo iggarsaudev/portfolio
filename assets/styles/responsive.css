@@ -1,0 +1,78 @@
+@media (max-width: 576px) {
+  /* Menu */
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 5.5rem;
+    right: 0;
+    padding: 0.625rem;
+    border-radius: 0.3125rem;
+    width: auto;
+    z-index: 10;
+  }
+
+  .menu.active {
+    background-color: var(--color-tertiary);
+    color: var(--fc-title);
+  }
+
+  .dark-theme .menu.active {
+    background-color: var(--dark-color-tertiary);
+    color: var(--dark-fc-title);
+  }
+
+  .controls {
+    position: absolute;
+    right: 1rem;
+    top: 0.625rem;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    order: 1;
+  }
+
+  .language,
+  .theme {
+    order: 0;
+  }
+
+  /* Home */
+  .info {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3.5rem;
+  }
+
+  .name {
+    font-size: 2rem;
+    color: blue;
+  }
+
+  .description {
+    font-size: 1rem;
+    margin-left: 0rem;
+  }
+
+  .photo {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .btn-cv {
+    margin-bottom: 2rem;
+  }
+
+  /* Projects */
+
+  /* Skills */
+  .skills-type {
+    margin: 0.5rem 1rem;
+  }
+
+  /* Footer */
+}

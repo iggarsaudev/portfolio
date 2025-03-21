@@ -1,0 +1,66 @@
+[
+  {
+    "id": "projectIglusshop",
+    "title": "Iglu'sShop",
+    "image": "/assets/images/projects/iglusshop.png",
+    "description": "Tienda online usando HTML, CSS, JS y TS, metodología BEM y gestión de API's.",
+    "githubUrl": "https://github.com/iggarsaudev/IgLusShop/tree/main",
+    "projectUrl": "https://iglusshop.netlify.app/"
+  },
+  {
+    "id": "projectBeyPei",
+    "title": "Beypei",
+    "image": "/assets/images/projects/beypei.png",
+    "description": "Una landing page profesional diseñada para Beypei con diseño responsivo.",
+    "githubUrl": "https://github.com/iggarsaudev/landing_page_beypei/tree/main",
+    "projectUrl": "https://landing-page-beypei.netlify.app/"
+  },
+  {
+    "id": "projectDrink",
+    "title": "Buscador de Bebidas",
+    "image": "/assets/images/projects/bebidas.jpg",
+    "description": "Buscador de Bebidas usando API, React Router, Tailwind, Zustand, Zod.",
+    "githubUrl": "https://github.com/iggarsaudev/bebidas-react-typescript/tree/main",
+    "projectUrl": "https://iggarsaudev-cocktail.netlify.app/"
+  },
+  {
+    "id": "projectCrypto",
+    "title": "Cotizador Criptomonedas",
+    "image": "/assets/images/projects/criptomonedas.jpg",
+    "description": "Cotizador de Criptomonedas usando React - TypeScript - Cripto App con Zod y Zustand.",
+    "githubUrl": "https://github.com/iggarsaudev/cripto-react-typescript/tree/main",
+    "projectUrl": "https://iggarsaudev-criptomoneda.netlify.app/"
+  },
+  {
+    "id": "projectTemperature",
+    "title": "Buscador de Temperatura",
+    "image": "/assets/images/projects/clima.jpg",
+    "description": "Buscador de Temperatura usando React - TypeScript - CC Modules y API's.",
+    "githubUrl": "https://github.com/iggarsaudev/clima-react-typescript/tree/main",
+    "projectUrl": "https://iggarsaudev-clima.netlify.app/"
+  },
+  {
+    "id": "projectVeterinarian",
+    "title": "Consultas Veterinario",
+    "image": "/assets/images/projects/veterinario.jpg",
+    "description": "Consultas Veterinario usando React - TypeScript - React Hook Form - Zustand - Tailwind.",
+    "githubUrl": "https://github.com/iggarsaudev/pacientes-zustand/tree/main",
+    "projectUrl": "https://iggarsaudev-veterinario.netlify.app/"
+  },
+  {
+    "id": "projectCalorie",
+    "title": "Contador de Calorías",
+    "image": "/assets/images/projects/calorias.jpg",
+    "description": "Aplicación para contabilizar las calorías usando React y TypeScript.",
+    "githubUrl": "https://github.com/iggarsaudev/calorie-tracker-contextapi/tree/main",
+    "projectUrl": "https://iggarsaudev-calorias.netlify.app/"
+  },
+  {
+    "id": "projectExpense",
+    "title": "Control de Gastos",
+    "image": "/assets/images/projects/gastos.png",
+    "description": "Control de Gastos React, TypeScript, useReducer y Context API.",
+    "githubUrl": "https://github.com/iggarsaudev/control-gastos-contextapi/tree/main",
+    "projectUrl": "https://iggarsaudev-gastos.netlify.app/"
+  }
+]

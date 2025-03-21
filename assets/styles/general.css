@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Constantes */
+:root {
+  /* Fonts */
+  --ff-title: "Poppins", sans-serif; /* font family title */
+  --ff-text: "Roboto", sans-serif; /* font family text */
+  --fw-normal: 400; /* font weight normal */
+  --fw-bold: 700; /* font weight bold */
+  /* End Fonts */
+  /* Colors Fonts */
+  --fc-title: #302c29; /* font color title */
+  --dark-fc-title: #e2bb6d; /* font color title dark theme */
+  --fc-text: #1e3957; /* font color title */
+  --dark-fc-text: #d6d6d6; /* font color title dark theme */
+  --color-primary: #eae7e3;
+  --dark-color-primary: #1e3957;
+  --color-secundary: #d9d5cc;
+  --dark-color-secundary: #14202e;
+  --color-tertiary: #bdb5aa;
+  --dark-color-tertiary: #4a596a;
+  /* End Colors Fonts */
+}

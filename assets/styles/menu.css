@@ -1,0 +1,152 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem 1.25rem;
+  background-color: var(--color-primary);
+  font-family: var(--ff-text);
+  font-weight: var(--fw-normal);
+  color: var(--fc-text);
+}
+
+.dark-theme .navbar {
+  background-color: var(--dark-color-primary);
+  color: var(--dark-fc-text);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 0.9375rem;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  flex-grow: 1;
+  top: 4.5rem; /* Ajusta para dejar espacio para los controles */
+}
+
+.menu.active {
+  display: flex;
+}
+
+.menu-item {
+  cursor: pointer;
+}
+
+.menu-item__link {
+  text-decoration: none;
+  font-family: var(--ff-text);
+  font-weight: var(--fw-normal);
+  color: var(--fc-text);
+}
+
+.menu-item__link.active {
+  color: var(--fc-title);
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+}
+
+.dark-theme .menu-item__link {
+  color: var(--dark-fc-text);
+}
+
+.menu-item__link:hover,
+.menu-item__link:focus {
+  color: var(--fc-title);
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+}
+
+.dark-theme .menu-item__link:hover,
+.dark-theme .menu-item__link:focus {
+  color: var(--dark-fc-title);
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Alinea los controles al extremo derecho */
+  position: static; /* Asegura que no se muevan de su posición original */
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/* Button Language */
+.language {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.language:hover,
+.language:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dark-language .language:hover,
+.dark-language .language:focus {
+  background-color: rgba(238, 234, 234, 0.88);
+}
+
+/* Button Theme */
+.theme {
+  margin-left: 1rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.theme:hover,
+.theme:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.dark-theme .theme:hover,
+.dark-theme .theme:focus {
+  background-color: rgba(238, 234, 234, 0.88);
+}
+
+.theme-icon {
+  font-size: 1.75rem;
+  color: #666666;
+  transition: color 0.3s ease;
+}
+
+.dark-theme .theme-icon {
+  font-size: 1.75rem;
+  color: #d6d6d6;
+  transition: color 0.3s ease;
+}

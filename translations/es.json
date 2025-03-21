@@ -1,0 +1,61 @@
+{
+  "menuHome": "Sobre mi",
+  "menuSkills": "Habilidades",
+  "menuProjects": "Proyectos",
+  "infoName": "¡Hola, soy Ignacio García Sausor!",
+  "infoDescription": "Informático Técnico con amplia experiencia en Java, Bases de Datos y React, y más de 8 años desarrollando proyectos tecnológicos para optimizar y digitalizar los procesos diarios de la Administración Pública (AAPP) en las áreas de la Gestión Tributaria, Recaudación, Inspección, Multas y Notificación.",
+  "infoDescription2": "He liderado equipos multidisciplinares, coordinado proyectos de integración de sistemas y formado a personal técnico. Actualmente busco nuevos retos laborales que me permitan desarrollar mis conocimientos y habilidades con motivación, sentido del compañerismo y ganas de aprender para seguir desarrollándome profesionalmente.",
+  "infoCV": "Descargar CV",
+  "skillsTitle": "Habilidades",
+  "skillsFrontend": "Frontend",
+  "skillsBackend": "Backend",
+  "skillsBDA": "Bases de datos",
+  "skillsVersions": "Control de versiones",
+  "projectsTitle": "Proyectos",
+  "projectIglusshop": {
+    "id": "projectIglusshop",
+    "title": "Iglu'sShop",
+    "description": "Tienda online usando HTML, CSS, JS y TS, metodología BEM y gestión de API's."
+  },
+  "projectBeyPei": {
+    "id": "projectBeyPei",
+    "title": "BeyPei",
+    "description": "Una landing page profesional diseñada para Beypei con diseño responsivo."
+  },
+  "projectDrink": {
+    "id": "projectDrink",
+    "title": "Buscador de Bebidas",
+    "description": "Buscador de Bebidas usando API, React Router, Tailwind, Zustand, Zod."
+  },
+  "projectCrypto": {
+    "id": "projectCrypto",
+    "title": "Cotizador Criptomonedas",
+    "description": "Cotizador de Criptomonedas usando React - TypeScript - Cripto App con Zod y Zustand."
+  },
+  "projectTemperature": {
+    "id": "projectTemperature",
+    "title": "Buscador de Temperatura",
+    "description": "Buscador de Temperatura usando React - TypeScript - CC Modules y API's."
+  },
+  "projectVeterinarian": {
+    "id": "projectVeterinarian",
+    "title": "Consultas Veterinario",
+    "description": "Consultas Veterinario usando React - TypeScript - React Hook Form - Zustand - Tailwind."
+  },
+  "projectCalorie": {
+    "id": "projectCalorie",
+    "title": "Contador de Calorías",
+    "description": "Aplicación para contabilizar las calorías usando React y TypeScript."
+  },
+  "projectExpense": {
+    "id": "projectExpense",
+    "title": "Control de Gastos",
+    "description": "Control de Gastos React, TypeScript, useReducer y Context API."
+  },
+  "viewProject": "Ver Proyecto",
+  "frontendTitle": "Frontend",
+  "backendTitle": "Backend",
+  "bdaTitle": "Base de Datos",
+  "versionsTitle": "Control de Versiones",
+  "footerNote": "©2025 Ignacio García Sausor"
+}

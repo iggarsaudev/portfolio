@@ -1,0 +1,80 @@
+/* Section Projects */
+.projects {
+  padding: 2rem;
+  background-color: var(--color-secundary);
+}
+
+.dark-theme .projects {
+  background-color: var(--dark-color-secundary);
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 0.5rem;
+  width: 18rem;
+  height: 28rem; /* Altura fija para todas las tarjetas */
+  background-color: var(--color-tertiary);
+  font-family: var(--ff-text);
+  font-weight: var(--fw-normal);
+  color: var(--fc-text);
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Mantén el contenido y los botones separados */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* Espaciado entre los elementos */
+}
+
+.card-img-top {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+  height: 12rem; /* Ajusta la altura según lo necesario */
+  object-fit: fill; /* Recorta la imagen para llenar el contenedor sin distorsionarse */
+  border-radius: 0.5rem; /* Opcional: para bordes redondeados */
+}
+
+.dark-theme .card {
+  background-color: var(--dark-color-tertiary);
+  color: var(--dark-fc-text);
+}
+
+.card-title {
+  font-family: var(--ff-text);
+  font-weight: var(--fw-bold);
+  color: var(--fc-text);
+}
+
+.dark-theme .card-title {
+  color: var(--dark-fc-text);
+}
+
+.github-btn,
+.view-project-btn {
+  margin-top: 0;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  background-color: var(--dark-fc-title);
+  font-weight: var(--fw-bold);
+  color: var(--fc-text);
+}
+
+.github-btn:hover,
+.github-btn:focus,
+.view-project-btn:hover,
+.view-project-btn:focus {
+  background-color: #b39456;
+  font-weight: var(--fw-bold);
+  color: var(--fc-text);
+}

@@ -1,0 +1,27 @@
+{
+  "frontend": [
+    { "skill": "HTML", "image": "/assets/images/skills/html.png" },
+    { "skill": "CSS", "image": "/assets/images/skills/css.png" },
+    { "skill": "JavaScript", "image": "/assets/images/skills/javascript.png" },
+    { "skill": "TypeScript", "image": "/assets/images/skills/typescript.png" },
+    { "skill": "React", "image": "/assets/images/skills/react.png" },
+    { "skill": "VueJS", "image": "/assets/images/skills/vue.png" },
+    { "skill": "Figma", "image": "/assets/images/skills/figma.png" }
+  ],
+  "backend": [
+    { "skill": "Java", "image": "/assets/images/skills/java.png" },
+    { "skill": "NodeJS", "image": "/assets/images/skills/nodejs.png" },
+    { "skill": "ExpressJS", "image": "/assets/images/skills/express.svg" },
+    { "skill": "Laravel", "image": "/assets/images/skills/laravel.png" },
+    { "skill": "Python", "image": "/assets/images/skills/python.png" }
+  ],
+  "bda": [
+    { "skill": "SQL", "image": "/assets/images/skills/sql.png" },
+    { "skill": "MySQL", "image": "/assets/images/skills/mysql.png" },
+    { "skill": "MongoDB", "image": "/assets/images/skills/mongodb.png" }
+  ],
+  "versions": [
+    { "skill": "Git", "image": "/assets/images/skills/git.png" },
+    { "skill": "GitHub", "image": "/assets/images/skills/github.png" }
+  ]
+}

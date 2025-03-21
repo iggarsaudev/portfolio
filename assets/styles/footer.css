@@ -1,0 +1,77 @@
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.25rem 2rem;
+  /* background: linear-gradient(to bottom, var(--color-primary), var(--color-tertiary)); */
+  background: linear-gradient(
+    to bottom,
+    var(--color-tertiary),
+    var(--color-primary)
+  );
+  font-family: var(--ff-text);
+  font-weight: var(--fw-normal);
+  color: var(--fc-text);
+}
+
+.dark-theme .footer {
+  background: linear-gradient(
+    to bottom,
+    var(--dark-color-tertiary),
+    var(--dark-color-primary)
+  );
+  font-family: var(--ff-text);
+  font-weight: var(--fw-normal);
+  color: var(--dark-fc-text);
+}
+
+.socials {
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos */
+  gap: 1rem;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.socials-circle {
+  width: 3.5rem; /* Tamaño del círculo */
+  height: 3.5rem; /* Tamaño del círculo */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: var(--color-primary);
+}
+
+.socials-link {
+  display: flex;
+  align-items: center; /* Asegura que el contenido interno esté alineado */
+  justify-content: center;
+  width: 36px; /* Establece un tamaño uniforme para todos los iconos */
+  height: 36px; /* Establece un tamaño uniforme para todos los iconos */
+}
+
+.socials-img {
+  max-width: 100%; /* Ajusta la imagen dentro del contenedor */
+  max-height: 100%; /* Ajusta la imagen dentro del contenedor */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.socials-img:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.footer-note {
+  width: 100%;
+  text-align: center;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+  font-family: var(--ff-text);
+  font-weight: var(--fw-normal);
+  color: var(--dark-fc-text--fc-text);
+}

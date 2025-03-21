@@ -1,0 +1,99 @@
+/* Section Skills */
+.skills {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: var(--color-primary);
+}
+
+.dark-theme .skills {
+  background-color: var(--dark-color-primary);
+}
+
+.skill {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* Espacio entre los círculos */
+  flex-wrap: wrap; /* Permite que los círculos se envuelvan cuando no caben */
+}
+
+.skills-type {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--color-tertiary);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-title {
+  width: 100%;
+  text-align: center;
+}
+
+.dark-theme .skills-type {
+  background-color: var(--dark-color-tertiary);
+  box-shadow: 0 6px 10px rgba(226, 187, 109, 0.8);
+}
+
+.skills-name {
+  color: var(--fc-text);
+  font-weight: var(--fw-bold);
+}
+
+.dark-theme .skills-name {
+  color: var(--dark-fc-text);
+}
+
+.skill-circle {
+  width: 6rem; /* Tamaño del círculo */
+  height: 6rem; /* Tamaño del círculo */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: var(--color-primary);
+}
+
+.dark-theme .skill-circle {
+  box-shadow: 0 4px 6px rgba(226, 187, 109, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-circle:hover,
+.skill-circle:focus {
+  transform: scale(1.05); /* Leve aumento de tamaño en hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8); /* Sombra más pronunciada */
+}
+
+.dark-theme .skill-circle:hover,
+.dark-theme .skill-circle:focus {
+  transform: scale(1.05);
+  box-shadow: 0 6px 10px rgba(226, 187, 109, 0.8);
+}
+
+.skill-circle__content {
+  width: 90%; /* Reduce un poco el espacio para que la imagen tenga margen */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.skill-icon {
+  width: 70%; /* Ajuste el tamaño de la imagen dentro del círculo */
+  height: auto;
+  object-fit: contain; /* Asegura que la imagen no se distorsione */
+}
+
+.extraSize {
+  width: 100%; /* Ajusto el tamaño */
+}
