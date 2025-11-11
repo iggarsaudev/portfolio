@@ -1,5 +1,13 @@
 [
   {
+    "id": "projectIglusshopTFM",
+    "title": "Iglu'sShop",
+    "image": "/assets/images/projects/iglusshop.png",
+    "description": "Tienda online full-stack: frontend en React, backend en Laravel y MySQL — panel de administración y rutas públicas/privadas.",
+    "githubUrl": "https://github.com/iggarsaudev/TFM_IgLusShop",
+    "projectUrl": "http://iglusshop.ddns.net"
+  },
+  {
     "id": "projectIglusshop",
     "title": "Iglu'sShop",
     "image": "/assets/images/projects/iglusshop.png",

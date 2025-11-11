@@ -12,6 +12,11 @@
   "skillsBDA": "Bases de datos",
   "skillsVersions": "Control de versiones",
   "projectsTitle": "Proyectos",
+  "projectIglusshopTFM": {
+    "id": "projectIglusshopTFM",
+    "title": "Iglu'sShop",
+    "description": "Tienda online full-stack: frontend en React, backend en Laravel y MySQL — panel de administración y rutas públicas/privadas."
+  },
   "projectIglusshop": {
     "id": "projectIglusshop",
     "title": "Iglu'sShop",
